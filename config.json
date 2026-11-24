@@ -1,0 +1,68 @@
+{
+  "seed": 42,
+  "task": "classification",
+  "data": {
+    "demo": "classification",
+    "train_path": null,
+    "test_path": null,
+    "target_path": null,
+    "target": "outcome",
+    "id_columns": ["record"],
+    "drop_columns": [],
+    "feature_columns": null,
+    "categorical_columns": [],
+    "datetime_columns": [],
+    "time_column": null,
+    "group_column": null
+  },
+  "validation": {
+    "strategy": "stratified",
+    "n_splits": 3,
+    "shuffle": true,
+    "gap": 0,
+    "label_horizon": 0,
+    "label_end_column": null,
+    "test_periods": null,
+    "period_column": null,
+    "max_train_periods": null
+  },
+  "features": {
+    "histories": {},
+    "windows": [3, 5, 10, 20],
+    "temporal": {
+      "columns": [],
+      "entity_columns": [],
+      "lags": [1, 2, 5],
+      "windows": [3, 5, 10],
+      "availability": "frozen"
+    },
+    "cross_sectional": {
+      "columns": [],
+      "keys": [],
+      "available_at_prediction": false
+    },
+    "group_statistics": {"columns": [], "keys": []},
+    "interactions": [],
+    "drop_raw_columns": []
+  },
+  "preprocessing": {
+    "scale": true,
+    "clip_quantiles": null,
+    "min_category_frequency": 2,
+    "max_categories": 64,
+    "pca_components": 0,
+    "clusters": 0
+  },
+  "models": ["logistic", "lightgbm"],
+  "model_params": {},
+  "threads": 2,
+  "metric": {"name": "roc_auc", "threshold": 0.5},
+  "tuning": {"model": "lightgbm", "seconds": 120, "max_trials": 20},
+  "submission": {
+    "template_path": null,
+    "prediction_columns": ["prediction"],
+    "kind": "probability",
+    "positive_class": null
+  },
+  "output_dir": "outputs"
+}

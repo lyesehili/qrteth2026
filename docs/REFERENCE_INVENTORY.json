@@ -1,0 +1,581 @@
+{
+  "QRT_challenge": {
+    "counts": {
+      "readable_notebooks": 33,
+      "empty_or_invalid_notebooks": 3,
+      "python_files": 10
+    },
+    "files": [
+      {
+        "path": ".tmp_run_preprocess.py",
+        "bytes": 1043,
+        "sha256": "0a318b6b7bea401a31757f9fbcd3877b2d864504067f2e026b0ab74cf899415f",
+        "definitions": []
+      },
+      {
+        "path": "datasets/datasets.py",
+        "bytes": 2724,
+        "sha256": "fed44603a865a3f54f4638046fdd0b28e9eccb6c81100d607d803801d2fa95db",
+        "definitions": [
+          "ClassificationDataset",
+          "HybridClassificationDataset"
+        ]
+      },
+      {
+        "path": "evaluation/eval.py",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "definitions": []
+      },
+      {
+        "path": "inference/inference.py",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "definitions": []
+      },
+      {
+        "path": "models/models.py",
+        "bytes": 32200,
+        "sha256": "76ec57bddc4ad4eeba8a9a1f98c1b0b89d878acfb203d7f79399a1ee91cb64b9",
+        "definitions": [
+          "LSTM_V1",
+          "LSTM_Classifier_V1",
+          "HybridModel_V1",
+          "XGBoostTrainer",
+          "LGBMTrainer",
+          "LinearTrainer"
+        ]
+      },
+      {
+        "path": "notebooks/benchmark.ipynb",
+        "bytes": 41146,
+        "sha256": "4a194aa9a732685657a0450bd3327b611e4fb28c0c7bfae782543bc51a85aba3",
+        "cells": 13
+      },
+      {
+        "path": "notebooks/dataset_analysis.ipynb",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "status": "empty or invalid"
+      },
+      {
+        "path": "notebooks/ensembling/ensembling_test.ipynb",
+        "bytes": 132989,
+        "sha256": "06c496b294c8d223703f668ae29181be803fa8044b40c844e5ccd528f098d39a",
+        "cells": 49
+      },
+      {
+        "path": "notebooks/feature_engineering/correlations.ipynb",
+        "bytes": 46176,
+        "sha256": "ec77a61bbe757c178ae9b1e19fc310c11018332877ac79db26b667827d92abe4",
+        "cells": 5
+      },
+      {
+        "path": "notebooks/feature_engineering/feature_selection_elasticnet.ipynb",
+        "bytes": 67576,
+        "sha256": "bc8ab01512dbdc7088f29aaa27ee56b94928a4a909e2decc65dafdb84e474e10",
+        "cells": 19
+      },
+      {
+        "path": "notebooks/feature_engineering/feature_selection_huber.ipynb",
+        "bytes": 83417,
+        "sha256": "50629899e187c157f990a1c202e92dbb606a839fc7fe78a56c82e3bdfd8f457e",
+        "cells": 19
+      },
+      {
+        "path": "notebooks/feature_engineering/feature_selection_linear_models.ipynb",
+        "bytes": 1709310,
+        "sha256": "7359f55f190941eea63fafc836a6e4e5665cfa4912d3afea5ba29787c8607e25",
+        "cells": 24
+      },
+      {
+        "path": "notebooks/feature_engineering/feature_selection_linear_models_2.ipynb",
+        "bytes": 366949,
+        "sha256": "0d839962069026d5f4d19a217bc8ee5368a7f8fdf018f03cc3aa80bd4042d012",
+        "cells": 10
+      },
+      {
+        "path": "notebooks/feature_engineering/feature_selection_linear_models_3.ipynb",
+        "bytes": 156918,
+        "sha256": "00c6ac5958fe7f5f474b3e61d359ec6e3039ab77b8d9d770fa94d6356d3a24d8",
+        "cells": 10
+      },
+      {
+        "path": "notebooks/feature_engineering/feature_selection_ridge.ipynb",
+        "bytes": 69115,
+        "sha256": "c6c0fb0185fbadbdc823ade9f5a44eeedf210851c087fb7145383e6a7b3e5f9c",
+        "cells": 19
+      },
+      {
+        "path": "notebooks/feature_engineering/mi_scores.ipynb",
+        "bytes": 73774,
+        "sha256": "c86b86aa0a36183e0522077401e43222e69a3ec03403d5d5fdfc78bf6de3911d",
+        "cells": 11
+      },
+      {
+        "path": "notebooks/feature_engineering/pearson.ipynb",
+        "bytes": 107972,
+        "sha256": "1d06ca16aa331cedcb46ed64527a04d2298e144f0f55ab4b3d74f7dfa7c4e573",
+        "cells": 9
+      },
+      {
+        "path": "notebooks/feature_engineering/ridge_univarie.ipynb",
+        "bytes": 68635,
+        "sha256": "01c538b503d1246b1cc1d913e686b707f05e8a1ea2f0482130fb63f8a701b38c",
+        "cells": 7
+      },
+      {
+        "path": "notebooks/hybrid_classifier_train.ipynb",
+        "bytes": 27204,
+        "sha256": "53c0c2f3e751fa4c36cc118aee0f6bb2882e51b929041914ec17701a445c981b",
+        "cells": 12
+      },
+      {
+        "path": "notebooks/lgbm/lgbm_trainer.ipynb",
+        "bytes": 8551,
+        "sha256": "7ebfc755fc6de6eb9b9171a045313ff58686efe21559adbb872eea0297ff5f39",
+        "cells": 7
+      },
+      {
+        "path": "notebooks/linear/final_linear.ipynb",
+        "bytes": 5333,
+        "sha256": "b74327b367e0353812c71d0e2523b21df8133a93cbfdd93fc079bd27d1e22004",
+        "cells": 7
+      },
+      {
+        "path": "notebooks/linear/linear_model_training.ipynb",
+        "bytes": 19708,
+        "sha256": "d85b5e0773cb8b8db21a54376c1d239ee46842a73c4024c1343d1c58f051b1e3",
+        "cells": 6
+      },
+      {
+        "path": "notebooks/linear/linear_trainer.ipynb",
+        "bytes": 7006,
+        "sha256": "19cbb23bcf90495e3066a7927d8daae00caa399b52d4d74ee57411012d809154",
+        "cells": 5
+      },
+      {
+        "path": "notebooks/linear_models.ipynb",
+        "bytes": 834620,
+        "sha256": "47262902902a495221d0dbafd7e485ef1294e646d3e103342f34e24c424c20aa",
+        "cells": 16
+      },
+      {
+        "path": "notebooks/lstm_classifier_train.ipynb",
+        "bytes": 41051,
+        "sha256": "05ec42ed64c02dae913d420aceb62f75f963b3ca063bb7b08b2c9abe90350190",
+        "cells": 7
+      },
+      {
+        "path": "notebooks/lstm_training.ipynb",
+        "bytes": 12553,
+        "sha256": "e5b5c3b962b43a566ee50b802c205929260249af8815f1b6a4ee7cb21d9790d4",
+        "cells": 8
+      },
+      {
+        "path": "notebooks/nan/nan.ipynb",
+        "bytes": 128399,
+        "sha256": "fc4908d37da8a251a7539d852fd9dcb07269d2a64ccec4516b3c42c10c151129",
+        "cells": 3
+      },
+      {
+        "path": "notebooks/preprocess_testing.ipynb",
+        "bytes": 362738,
+        "sha256": "efad838a9c6c1aef0fe7bd6ed127047eb7ff766df0ce9d98bfab26f103d0709a",
+        "cells": 24
+      },
+      {
+        "path": "notebooks/randomforesttraining.ipynb",
+        "bytes": 265629,
+        "sha256": "708efbbe3b388eb13f4e4fdd3400965919e429900c54b5b518d1c994cea35c27",
+        "cells": 7
+      },
+      {
+        "path": "notebooks/specialized_models/market_model.ipynb",
+        "bytes": 97735,
+        "sha256": "b16837f52a0f598b3982a09f1dec64044d7959a1b86416d3f627ed011c07987a",
+        "cells": 16
+      },
+      {
+        "path": "notebooks/specialized_models/portfolio_technical.ipynb",
+        "bytes": 172552,
+        "sha256": "77179e8a07d1afc3871833745c0f874e372aaef7b452e4d4c508358b5a08c17b",
+        "cells": 21
+      },
+      {
+        "path": "notebooks/specialized_models/risk_model.ipynb",
+        "bytes": 107641,
+        "sha256": "5dad503d4d280f2170fce6c8df482b6398cae5f567d66f1a7569b248745207ff",
+        "cells": 22
+      },
+      {
+        "path": "notebooks/specialized_models/short_term_model.ipynb",
+        "bytes": 111205,
+        "sha256": "1bd284f1d286075c3ea9a1e9d175e17972be7188ed8c1f7bac7d8edde17c2d44",
+        "cells": 14
+      },
+      {
+        "path": "notebooks/test_markowitz.ipynb",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "status": "empty or invalid"
+      },
+      {
+        "path": "notebooks/tests_dataset_manipulation.ipynb",
+        "bytes": 69520,
+        "sha256": "d42cdf0cad4f9b7afef864c68856e9789cd22d7faa4bfac87e8e32b15f8e1c65",
+        "cells": 10
+      },
+      {
+        "path": "notebooks/tests_normalisations_lstm.ipynb",
+        "bytes": 56340,
+        "sha256": "9d00b20d288c822561cab4d1e99083213cd6fa55db96964166ccfe86250040a6",
+        "cells": 18
+      },
+      {
+        "path": "notebooks/time_series_preprocessing.ipynb",
+        "bytes": 59647,
+        "sha256": "24e0fc0a50d4866f97289e6d507b4d59a76cb69858ccd4997b49a3426b79eb1d",
+        "cells": 12
+      },
+      {
+        "path": "notebooks/xgboost/robust_cross_validation.ipynb",
+        "bytes": 123597,
+        "sha256": "ed43a45df0dfa788a7b462e1f309a77054ceaf4ef606790653e71f6c36fee1dc",
+        "cells": 11
+      },
+      {
+        "path": "notebooks/xgboost/test_xgboost.ipynb",
+        "bytes": 24333,
+        "sha256": "2fa285887528072aeba89c88ea2ce5f10ea51444b8b31eaf3f83dbb0a596d2f8",
+        "cells": 7
+      },
+      {
+        "path": "notebooks/xgboost/xgboost_trainer.ipynb",
+        "bytes": 3129,
+        "sha256": "91f1bc956ebc9c5553c2ec1df5baa166038c5362cb25e46ed98fa9a9c1dbaef5",
+        "cells": 3
+      },
+      {
+        "path": "preprocessing/feature_engineering.py",
+        "bytes": 4107,
+        "sha256": "e34d3ebc4478cf7e34115969130f4a0d8aeeb8ef1c2763527ae25d718ea65f34",
+        "definitions": [
+          "analyse_mutual_information",
+          "select_features_pearson",
+          "select_features_univariate_ridge",
+          "cluster_with_spearman"
+        ]
+      },
+      {
+        "path": "preprocessing/features_markowitz.ipynb",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "status": "empty or invalid"
+      },
+      {
+        "path": "preprocessing/preprocess.py",
+        "bytes": 44946,
+        "sha256": "71afc53cd9b01f8fcd4e127ec4cef758996ee3de2256099f347dfc330d09b28b",
+        "definitions": [
+          "zscore_row_normalization",
+          "centered_row_normalization",
+          "reducted_row_normalization",
+          "signed_sqrt_row_normalization",
+          "preprocessor",
+          "preprocessor"
+        ]
+      },
+      {
+        "path": "readme.md",
+        "bytes": 6318,
+        "sha256": "057c0afb8c092eb9e5b51d50c0905adb022ace669627e8c097eb3534a64e2f1c"
+      },
+      {
+        "path": "requirements.txt",
+        "bytes": 23,
+        "sha256": "59be22fae86ec6284149fa1e898c7260654d2a604b4d5f5743002b44c372ddb9"
+      },
+      {
+        "path": "ressources/demarche_expliquee.md",
+        "bytes": 12992,
+        "sha256": "e003c2326762e8b81f20ef29ccc089544598eb5bf21d6fa521a88794cfc9d84d"
+      },
+      {
+        "path": "ressources/explication_markowitz.md",
+        "bytes": 4529,
+        "sha256": "3a6da7f87d626841f15679d31ab1edbdf12af3a6d7236b3f57684bbc25a80f2f"
+      },
+      {
+        "path": "ressources/links.txt",
+        "bytes": 70,
+        "sha256": "b1dc9791d51f86e8f70c013572612141d644b320d0fedf7af5bf360e8ab9f63e"
+      },
+      {
+        "path": "training/train.py",
+        "bytes": 3196,
+        "sha256": "f80909d38e8c28f051f5ded520e6b3cc9c6b37adabf35caafdc3e5409978141c",
+        "definitions": [
+          "RandomForestTrainer"
+        ]
+      },
+      {
+        "path": "utils/__init__.py",
+        "bytes": 185,
+        "sha256": "bb36b23643f74827ea28292dcbd475bee84c270a275a7eb00315325c5daa69e1",
+        "definitions": []
+      },
+      {
+        "path": "utils/io.py",
+        "bytes": 2687,
+        "sha256": "9fe7cee619f10e4d241c7c8aac3e41b83e14931f1e6a71ef9cff8e2b0b621370",
+        "definitions": [
+          "get_repo_root",
+          "get_data_dir",
+          "read_csv",
+          "list_csvs"
+        ]
+      }
+    ]
+  },
+  "qrt-data-challenge": {
+    "counts": {
+      "readable_notebooks": 1,
+      "empty_or_invalid_notebooks": 0,
+      "python_files": 0
+    },
+    "files": [
+      {
+        "path": "README.md",
+        "bytes": 8973,
+        "sha256": "73fbfa38f36ad3fc1ddf03c092d6fe4e6ccf9ec0d70472a2e26a8946260c6501"
+      },
+      {
+        "path": "benchmark_submission.ipynb",
+        "bytes": 377102,
+        "sha256": "57624674b4c2766f3dfa34384e75edc2f709f88079a81c20cdacef5b5e052627",
+        "cells": 52
+      }
+    ]
+  },
+  "trust-or-short-QRT-Data-Challenge-2026": {
+    "counts": {
+      "readable_notebooks": 0,
+      "empty_or_invalid_notebooks": 0,
+      "python_files": 22
+    },
+    "files": [
+      {
+        "path": "README.md",
+        "bytes": 4539,
+        "sha256": "451967ac13dda4dbdea1d242be821f2e8d759ced7dc0f8a206a41388b20bcc40"
+      },
+      {
+        "path": "data/README.md",
+        "bytes": 288,
+        "sha256": "cafb602599f4c5d41c9aecd2ee97e385912bfe3c85ff77942d908964d93566e6"
+      },
+      {
+        "path": "experiments/run10_adversarial.py",
+        "bytes": 14625,
+        "sha256": "4c1813afab1e9db0d4eda3ec0761950f86f32092cf84069cf67824e65e5ec9d8",
+        "definitions": []
+      },
+      {
+        "path": "experiments/run11_nodrift.py",
+        "bytes": 8413,
+        "sha256": "69bea5ae0127afff2110b99ff7b039d2e1b55738235dde42bd4fd6cbe15b1cd3",
+        "definitions": []
+      },
+      {
+        "path": "experiments/run12_fulldata.py",
+        "bytes": 5530,
+        "sha256": "1d678178a7dc1983833785baf73a9be07501532d2ca309e066eeedba8fb21a47",
+        "definitions": []
+      },
+      {
+        "path": "experiments/run13_cs_norm.py",
+        "bytes": 7209,
+        "sha256": "c9b0231a4a0f7318411bca2601f0b9b01792553a89bf41c8c53fed3140777c38",
+        "definitions": [
+          "cs_normalize"
+        ]
+      },
+      {
+        "path": "experiments/run14_neural.py",
+        "bytes": 10273,
+        "sha256": "fc77b080c55ccdca5efdec94b6df5a27db1f98534f0bdf460d4542daa4f18f37",
+        "definitions": [
+          "compute_summary",
+          "cs_normalize_raw",
+          "add_alloc_base_neural",
+          "FinancialMLP",
+          "train_epoch",
+          "predict"
+        ]
+      },
+      {
+        "path": "experiments/run15_group_market.py",
+        "bytes": 7974,
+        "sha256": "7ac92c8f150fb429f748a2e3345cb83505bc238e04fea8a2d8e77c735768bb95",
+        "definitions": [
+          "add_group_market_features",
+          "add_interaction_features",
+          "add_interactions_with_target_enc"
+        ]
+      },
+      {
+        "path": "experiments/run16_seed_avg.py",
+        "bytes": 5542,
+        "sha256": "4b17d55a39665bf82069ca5ab2f77636d3c39962fe607995567654e0403fdfd0",
+        "definitions": []
+      },
+      {
+        "path": "experiments/run17_purerank.py",
+        "bytes": 18067,
+        "sha256": "32443962cc45ce952f1f7df902e4bb97fda07423e6ea1bc889ab9846d90cb00f",
+        "definitions": [
+          "build_purerank_features",
+          "add_target_encoding_in_fold",
+          "main"
+        ]
+      },
+      {
+        "path": "experiments/run18_covariate_shift.py",
+        "bytes": 13516,
+        "sha256": "bd47fd5c8581ac933d753ebcb9279e95f407f6a5a374f99ed0f4ae0434ec4232",
+        "definitions": []
+      },
+      {
+        "path": "experiments/run18_regression.py",
+        "bytes": 15405,
+        "sha256": "682ceed35596888cac3d52e8139d20e935a25db9f7f0bed2adf9c31ca94efc0e",
+        "definitions": [
+          "run_regression_cv"
+        ]
+      },
+      {
+        "path": "experiments/run19_adv_earlystop.py",
+        "bytes": 12940,
+        "sha256": "d36346b79fa6f22fcca84d5df42d016e2276736bbd8d547c1d54b14c67776b22",
+        "definitions": []
+      },
+      {
+        "path": "experiments/run20_rf.py",
+        "bytes": 10008,
+        "sha256": "b558b6330b142ead5144dd6bd65d6dc5268df177dedd0bbb1baa4e0a02dc3d0a",
+        "definitions": [
+          "run_cv"
+        ]
+      },
+      {
+        "path": "experiments/run4_logistic.py",
+        "bytes": 4271,
+        "sha256": "220c0b62242aee417e7e220804cf1ec1f1a6b667ba0685bc10ae2d55896d511c",
+        "definitions": []
+      },
+      {
+        "path": "experiments/run6_per_group.py",
+        "bytes": 5289,
+        "sha256": "2e9db6a43238f8ac0a8757e4840af5045798581ba72fce3c80d48c9e252a95a1",
+        "definitions": []
+      },
+      {
+        "path": "experiments/run7_catboost.py",
+        "bytes": 5357,
+        "sha256": "633f594065ef15f5809f145ef294d1f226da36f1a8fa0ee417c7e034ff4f3671",
+        "definitions": []
+      },
+      {
+        "path": "experiments/run8_turnover_bayes.py",
+        "bytes": 5055,
+        "sha256": "48925101a0f1e880790b572598a885058c1529cfcefcde8df9063604b2d4635f",
+        "definitions": []
+      },
+      {
+        "path": "experiments/run9_optuna.py",
+        "bytes": 12840,
+        "sha256": "61b18242d09ad0ba196a2b674a9b7e55d406bf35c078142134b994f489470480",
+        "definitions": [
+          "add_alloc_historical_features",
+          "run_cv",
+          "objective"
+        ]
+      },
+      {
+        "path": "pyproject.toml",
+        "bytes": 546,
+        "sha256": "14e39c7ba2d6f20063d84a536362f6e377c87ee854a9b785fd0f98d01d217d9e"
+      },
+      {
+        "path": "results/experiments_log.md",
+        "bytes": 8131,
+        "sha256": "8d1b2df8a30b1cb00d58cf863b876339d35939617b29706dda9cc12880d55c67"
+      },
+      {
+        "path": "src/__init__.py",
+        "bytes": 74,
+        "sha256": "f213c3398a4f67afa14688d6ddd1f697bb96021b2cb93874be9238368687e727",
+        "definitions": []
+      },
+      {
+        "path": "src/features.py",
+        "bytes": 12591,
+        "sha256": "bc98897e737ec55849290ca58a922d11bfd2f7f291f34cce936f35763971f5a3",
+        "definitions": [
+          "fit_group_encoder",
+          "add_return_aggregates",
+          "add_momentum",
+          "add_return_stats",
+          "add_pattern_features",
+          "add_volume_features",
+          "add_cross_sectional",
+          "add_intragroup",
+          "add_group_encoding",
+          "add_linear_trend",
+          "add_turnover_features",
+          "add_target_encoding",
+          "build_features",
+          "get_feature_list"
+        ]
+      },
+      {
+        "path": "src/models.py",
+        "bytes": 9971,
+        "sha256": "2b23027a43f632a6b148e62f4f6836ac86ce2d8ab58d3ccdce08977efaa900d0",
+        "definitions": [
+          "_kfold_on_dates",
+          "run_lgbm_cv",
+          "get_lgbm_feature_importance",
+          "run_logistic_cv",
+          "oof_correlation",
+          "blend_predictions",
+          "make_submission"
+        ]
+      },
+      {
+        "path": "src/run.py",
+        "bytes": 9487,
+        "sha256": "132d849bb74d76a1dbe9314928688b8134db6af2e0f5666f3855123b64f06250",
+        "definitions": [
+          "main"
+        ]
+      },
+      {
+        "path": "src/validation.py",
+        "bytes": 7632,
+        "sha256": "4665600fc4f269206a36efe5064c9ad422387ccb759db2652a83319ebe74b500",
+        "definitions": [
+          "check_leakage",
+          "guardian_decision",
+          "_print_verdict",
+          "save_model",
+          "get_next_run_id",
+          "log_run",
+          "read_log",
+          "summarise_log"
+        ]
+      }
+    ]
+  }
+}
